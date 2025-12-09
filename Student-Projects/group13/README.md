@@ -1,7 +1,4 @@
-# Group13
-* Group members:
-   * Sepanta MohammadGholian
-# Text Summarizer – Django Project
+# Text Summarizer - Group13
 
 A simple but powerful AI text-summarization web app built with Django, the HuggingFace Inference API, and django-allauth for authentication.
 Users can enter text, receive an AI-generated summary, and view their personal summary history when logged in.
@@ -9,7 +6,10 @@ Users can enter text, receive an AI-generated summary, and view their personal s
 ![image alt](https://github.com/sepanta1/Text-summarizer/blob/main/main_page.png?raw=true)
 ![image alt](https://github.com/sepanta1/Text-summarizer/blob/main/summary_page.png?raw=true)
 ![image alt](https://github.com/sepanta1/Text-summarizer/blob/main/history_page.png?raw=true)
-# Features
+
+## Team members:
+   * Sepanta MohammadGholian(40110130117210)
+## Features
 * AI Text Summarization
   * Uses HuggingFace InferenceClient for high-quality English summaries.
   * Validates input text before processing.
@@ -26,7 +26,7 @@ Users can enter text, receive an AI-generated summary, and view their personal s
  
 * Clean UI
 
-# Setup Instructions
+## Setup Instructions
 
 * Clone the repository
 ```bash
@@ -43,7 +43,7 @@ venv\Scripts\activate          # Windows
 ```bash
 pip install -r requirements.txt
 ```
-# Running in Development
+## Running in Development
 
 * Set api keys
 In development, you may store keys inside dev.py, not environment variables.
@@ -56,7 +56,7 @@ HUGGINGFACE_API_KEY = "your-hf-api-key"
 ```bash
 python manage.py runserver
 ```
-# Running in Production
+## Running in Production
 
 * manage.py includes:
 ```python
